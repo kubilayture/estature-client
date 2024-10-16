@@ -1,7 +1,7 @@
 import { useContext, useState } from "react";
 import "./navbar.scss";
 import { Link } from "react-router-dom";
-import { authContext } from "../../context/authContext";
+import { AuthContext } from "../../context/authContext";
 import { useNotificationStore } from "../../store/notificationStore";
 
 function Navbar() {
